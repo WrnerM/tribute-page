@@ -1,0 +1,95 @@
+#main {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  color: wheat;
+
+}
+
+#title {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#img-div {
+  margin: auto;
+  width: 20vw;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+#img-caption {
+  margin-top: 0;
+  font-size: smaller;
+}
+
+#tribute-info {
+  margin: 60px;
+}
+
+#tribute-link {
+  color: aliceblue;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  margin: auto;
+}
+
+.article-title {
+  display: flex;
+  justify-content: center;  
+}
+
+.chester-img {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.article-details {
+  margin: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  #img-div {
+    margin: auto;
+    width: 50vw;
+    font-size: x-small;
+  }
+
+  #image {
+    margin: auto;
+    width: 40vw;
+  }
+
+  #img-caption {
+    padding: 0 30px;
+  }
+
+  #tribute-info {
+    font-size: small;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .chester-img {
+    margin: auto;
+    width: 50vw;
+  }
+
+  .article-title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
